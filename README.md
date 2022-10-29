@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# GymExercises
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+GymExercises is a `react.js` based application which has been developed using **functional based components**. Generally, before going to gym or simply before doing exercises at home, we search for various exercises like chest, shoulders etc on google, youtube etc., which takes so much time to find the perfect video or results through which we can get the idea of different exercises, their posture etc. So I got an idea that can we put all exercises at one place with gifs or images & also with other features as well which will look good enough so that user can take interest in, so I created this app using data from [RapidAPI](https://rapidapi.com/hub). While created this app, I had fun & learned so much through this app.
 
-## Available Scripts
+## Description
+So GymExercises is an app on which information of different exercises is available. It is also user friendly & smooth operating app. All the exercises data for this app is coming from [Exercises RapidAPI](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/) api which has information for over 1300 exercises. [`react.js`](https://reactjs.org/), [`Material UI`](https://mui.com/) are the main technologies which are used to develop this app. This app includes below features :- 
 
-In the project directory, you can run:
+* the app consists of exercises with their names & postures in which it is clearly mentioned that how a particular exercise should be done.
+* each exercise also describes the part of the body that it targets.
+* user can also search for any exercise by bodypart. For example if user enters **chest** & click `search` button then all the exercises related to chest will be shown
+* if we click on a particluar exercise then we will directed to detail page of that exercise. On that page there will be full information of the exercise, similar       equipment related videos & also there will be related videos as well which will be redirected to youtube so that user can explore more for that particular exercise. 
 
-### `npm start`
+## To run this project locally
+To run this project, first you need download the folder as zip & unzip it in your local machine, then before using it you must have account on [RapidAPI](https://rapidapi.com/hub) & for using exercises data you should have key which will be given on [Exercises RapidAPI](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/). After getting this follow below steps :-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+$ cd ./GymExercises
+$ npm install
+$ npm start
+```
+### Hosted app link(https://earnest-rabanadas-27b244.netlify.app/), if you like it, then give it a star :)
